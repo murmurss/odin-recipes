@@ -1,0 +1,2 @@
+This is my first project for The Odin Project.
+This site will demonstrate my knowledge of creating an HTML website from scratch. I will be able to show how to create multiple pages, add links and images, and structure the text with headers, strong and emphasis tags, as well as utilizing lists.
