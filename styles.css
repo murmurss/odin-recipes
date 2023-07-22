@@ -1,0 +1,54 @@
+*{
+    font-family: Verdana, Helvetica, sans-serif;
+     background-color: rgb(255, 203, 252); 
+}
+
+h1 {
+    text-align: center;
+    color:#ff459f;
+    font-size: 48px;
+    text-shadow: 5px 2px 0px gray;
+}
+
+.heading {
+    text-align: center;
+}
+
+.picture {
+    width: 640px;
+    height: auto;
+}
+/* link properties */
+.links{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+a:link {
+    color: #ff459f;
+    text-decoration: none;
+}
+
+a:visited {
+    color:#8c2be1;
+}
+
+a:hover {
+    color:#00fff7;
+    text-decoration: none;
+}
+
+a:active {
+    color: pink;
+}
+
+/* list decorations */
+li.sakura {
+    margin: 0;
+    padding: 0 0 0 20px;
+    list-style: none;
+    background-image: url(./images/sakura-emoji.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+}
