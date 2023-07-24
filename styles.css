@@ -1,13 +1,26 @@
 *{
     font-family: Verdana, Helvetica, sans-serif;
-     background-color: rgb(255, 203, 252); 
+    background-color: #ffcbfc;      
 }
 
 h1 {
     text-align: center;
     color:#ff459f;
-    font-size: 48px;
-    text-shadow: 5px 2px 0px gray;
+    font-size: 56px;
+    text-shadow: 5px 2px 0px #8c2be1;
+}   
+
+h2{
+    text-align: center;
+    color:#f774b3;
+}
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    margin: 10px 50px 10px;
 }
 
 .heading {
@@ -18,10 +31,46 @@ h1 {
     width: 640px;
     height: auto;
 }
+
+.footer{
+    padding: 10px;
+    width: 100%;
+    background-color: #00fff7;
+    text-align: center;
+    font-size: larger;
+    font-weight: 400;
+}
+
+.ingredients-list, 
+.directions {
+    margin: 25px 100px 25px;
+    width: auto; 
+    border: 2px solid #8c2be1;
+    padding-bottom: 20px;
+    background-color: #cf97ff;
+}
+
+ol, ul, li, h3, h4{
+    background-color: #cf97ff;
+}
+
+ .ingredients-list em {
+    background-color: #cf97ff;
+ }
+
+ .ingredients-list p {
+    border: none;
+ }
+
+ .directions strong, em {
+    background-color: #cf97ff;
+ }
+
 /* link properties */
-.links{
+.links {
     font-weight: bold;
     font-size: 24px;
+    background-color: none;
 }
 
 a:link {
@@ -42,6 +91,14 @@ a:active {
     color: pink;
 }
 
+.footer{
+    background-color: #00fff7;
+ }
+
+ .foot-link{
+    background-color: #00fff7;
+ }
+
 /* list decorations */
 li.sakura {
     margin: 0;
@@ -51,4 +108,22 @@ li.sakura {
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 20px;
+    background-color: #ffcbfc;
+}
+
+.no-color{
+    background-color: #ffcbfc;
+}
+
+/* dango coloration */
+.pink {
+    color:#ff459f;
+}
+
+.green {
+    color: rgb(80, 255, 80);
+}
+
+.white {
+    color: #ffffff;
 }
